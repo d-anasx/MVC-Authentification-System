@@ -1,4 +1,5 @@
 <?php
+namespace App\Models;
 
 abstract class User {
     protected $id;

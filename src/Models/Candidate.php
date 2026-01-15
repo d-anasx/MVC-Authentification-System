@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Models;
+
 class Candidate extends User {
 
     public function __construct($id, $name, $email) {

@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Models;
+
 class Company extends User {
 
     public function __construct($id, $name, $email) {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Connection;
+namespace App\Config;
 use PDO;
 
 class Connection{

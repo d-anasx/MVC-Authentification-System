@@ -3,13 +3,7 @@
     "description": "Système d'authentification MVC",
     "autoload": {
         "psr-4": {
-            "App\\": "src/",
-            "App\\Controllers\\": "src/Controllers/",
-            "App\\Models\\": "src/Models/",
-            "App\\Repositories\\": "src/Repositories/",
-            "App\\Services\\": "src/Services/",
-            "App\\Router\\": "src/Router/",
-            "App\\Middleware\\": "src/Middleware/"
+            "App\\": "src/"
         }
     },
     "require": {}

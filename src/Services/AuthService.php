@@ -10,10 +10,10 @@ class AuthService
     private UserRepository $userRepo;
     private RoleRepository $roleRepo;
 
-    public function __construct(UserRepository $userRepo , RoleRepository $roleRepo)
+    public function __construct()
     {
-        $this->userRepo = $userRepo;
-        $this->roleRepo = $roleRepo;
+        $this->userRepo = new UserRepository();
+        $this->roleRepo = new RoleRepository();
 
     }
 
